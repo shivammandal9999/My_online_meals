@@ -1,0 +1,58 @@
+#navbar {
+    align-items: center;
+    flex-direction: column;
+}
+#home{
+    height: fit-content;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(https://cdn.pixabay.com/photo/2017/03/27/14/36/bell-pepper-2179100__340.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#services .box{
+    height: fit-content;
+    width: 100%;
+    
+
+}
+#services .box p{
+    text-align: center;
+    line-height: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height:15%;
+    display: inline-block;
+}
+#clients{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.clients-container::before{
+    content: "";
+    position: absolute;
+    background: url(https://cdn.pixabay.com/photo/2021/02/06/19/31/pancakes-5989144__340.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
